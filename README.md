@@ -22,22 +22,22 @@ conda create --name tf_2.4 python==3.8
 ## Install conda and set up a TensorFlow 1.15, CUDA 10.0 environment on Ubuntu/Windows
 [ https://fmorenovr.medium.com/install-conda-and-set-up-a-tensorflow-1-15-cuda-10-0-environment-on-ubuntu-windows-2a18097e6a98]
 #### Following are the libraries needed to be installed in order to make Mask RCNN to work like a charm
-$ conda create --name tf1 python=3.7
-$ conda activate tf1
-$ conda install -c conda-forge tensorflow-gpu=1.15
-$ conda install -c conda-forge tensorboardx -y
-$ conda install -c conda-forge notebook -y
-$ conda install -c conda-forge numpy=1.16.6 -y
-$ conda install -c conda-forge pandas -y
-$ conda install -c conda-forge matplotlib -y
-$ conda install -c conda-forge opencv -y
-$ conda install -c conda-forge scikit-learn -y
-$ conda install -c conda-forge tqdm -y
-$ conda install -c conda-forge scikit-image -y
-$ conda install -c anaconda scipy=1.5.3 -y
-$ conda install -c anaconda h5py=2.10.0 -y
-$ pip install --ignore-installed jupyter
-$ pip install jupyter
+* $ conda create --name tf1 python=3.7
+* $ conda activate tf1
+* $ conda install -c conda-forge tensorflow-gpu=1.15
+* $ conda install -c conda-forge tensorboardx -y
+* $ conda install -c conda-forge notebook -y
+* $ conda install -c conda-forge numpy=1.16.6 -y
+* $ conda install -c conda-forge pandas -y
+* $ conda install -c conda-forge matplotlib -y
+* $ conda install -c conda-forge opencv -y
+* $ conda install -c conda-forge scikit-learn -y
+* $ conda install -c conda-forge tqdm -y
+* $ conda install -c conda-forge scikit-image -y
+* $ conda install -c anaconda scipy=1.5.3 -y
+* $ conda install -c anaconda h5py=2.10.0 -y
+* $ pip install --ignore-installed jupyter
+* $ pip install jupyter
 
 # Some specific package 
 conda install -c anaconda pywget -y
