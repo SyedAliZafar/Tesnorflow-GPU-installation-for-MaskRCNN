@@ -1,4 +1,4 @@
-This gives an all the steps required to run Mask RCNN with GPU. 
+All the steps required to run Mask RCNN with GPU. 
 Moreover, this read me file provide step by step procedure, how to install cuda and cudnn on Windows. 
 
 
