@@ -40,8 +40,8 @@ conda create --name tf_2.4 python==3.8
 * $ pip install jupyter
 
 # Some specific package 
-conda install -c anaconda pywget -y
-conda install -c conda-forge shapely
+* $conda install -c anaconda pywget -y
+* $conda install -c conda-forge shapely
 
 https://fmorenovr.medium.com/install-conda-and-set-up-a-tensorflow-1-15-cuda-10-0-environment-on-ubuntu-windows-2a18097e6a98
 ##
